@@ -1,7 +1,7 @@
 const {test, expect} = require('@playwright/test')
 const fs = require('fs');
 
-test('My first test', async ({page}) => {
+test('Google search and screenshot', async ({page}) => {
 
   await page.goto('https://google.com')
   await page.click('text="Az összes elfogadása"');
