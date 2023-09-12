@@ -13,7 +13,7 @@ test('Weboldal E2E tesztelése', async ({page}) => {
   await page.locator('xpath=//*[@id="event-calendar"]/table[1]/tbody/tr/td[3]/a').click()
   await page.waitForTimeout(300);
   await page.locator('xpath=//*[@id="event-calendar"]/table[3]/tbody/tr[1]/td[7]/a').click()
-  await page.waitForTimeout(3000);
+  await page.waitForTimeout(3500);
 
   const screenshotBuffer = await page.screenshot();
   fs.writeFileSync('műsor.jpg', screenshotBuffer)
