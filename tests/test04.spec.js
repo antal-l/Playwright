@@ -1,7 +1,7 @@
 const {test, expect} = require('@playwright/test')
 const fs = require('fs');
 
-test('Login Test', async ({page}) => {
+test('Wikipedia Login Test', async ({page}) => {
 
   await page.goto('https://hu.wikipedia.org/wiki/Kezd%C5%91lap')
   await page.waitForTimeout(1000);

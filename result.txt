@@ -1,8 +1,0 @@
-KAPCSOLAT feliratú gomb van Tue Sep 26 2023 21:47:12 GMT+0200 (közép-európai nyári idő)
-AKTUÁLIS feliratú gomb van Tue Sep 26 2023 21:47:12 GMT+0200 (közép-európai nyári idő)
-KORCSOLYA feliratú gomb nincs Tue Sep 26 2023 21:47:12 GMT+0200 (közép-európai nyári idő)
-James Webb feliratú gomb nincs Tue Sep 26 2023 21:47:12 GMT+0200 (közép-európai nyári idő)
-KAPCSOLAT feliratú gomb van Fri Oct 20 2023 08:48:56 GMT+0200 (közép-európai nyári idő)
-AKTUÁLIS feliratú gomb van Fri Oct 20 2023 08:48:56 GMT+0200 (közép-európai nyári idő)
-KORCSOLYA feliratú gomb nincs Fri Oct 20 2023 08:48:56 GMT+0200 (közép-európai nyári idő)
-James Webb feliratú gomb nincs Fri Oct 20 2023 08:48:56 GMT+0200 (közép-európai nyári idő)

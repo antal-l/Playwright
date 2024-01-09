@@ -17,7 +17,7 @@ test('Google search and screenshot', async ({page}) => {
  await page.waitForTimeout(2000);
   
   const screenshotBuffer = await page.screenshot();
-  fs.writeFileSync('wikipedia.jpg', screenshotBuffer);
+  fs.writeFileSync('google_search_and_screenshot.jpg', screenshotBuffer);
   
   await page.waitForTimeout(2000);
   

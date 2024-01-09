@@ -1,7 +1,7 @@
 const {test, expect} = require('@playwright/test')
 const fs = require('fs');
 
-test('Weboldal E2E tesztelése', async ({page}) => {
+test('Weboldal E2E tesztelese', async ({page}) => {
 
   await page.goto('https://www.marczi.hu/')
   await page.waitForTimeout(1000);
@@ -24,7 +24,7 @@ test('Weboldal E2E tesztelése', async ({page}) => {
   await page.waitForTimeout(300);
 
   const screenshotBuffer2 = await page.screenshot();
-  fs.writeFileSync('koncert.jpg', screenshotBuffer)
+  fs.writeFileSync('weboldal_e2e_tesztelese.jpg', screenshotBuffer)
 
   await page.waitForTimeout(2000);
 

@@ -11,36 +11,36 @@ test('text verification', async ({page}) => {
         const kapcsolatButton = await page.$('text=KAPCSOLAT');
 
         if (kapcsolatButton) {
-            fs.appendFileSync('result.txt', `KAPCSOLAT feliratú gomb van ${date}\n`);
+            fs.appendFileSync('text_verification.txt', `KAPCSOLAT feliratú gomb van ${date}\n`);
           } else {
-            fs.appendFileSync('result.txt', `KAPCSOLAT feliratú gomb nincs ${date}\n`);
+            fs.appendFileSync('text_verification.txt', `KAPCSOLAT feliratú gomb nincs ${date}\n`);
           }
 
 
           const aktuálisButton = await page.$('text=AKTUÁLIS');
 
         if (aktuálisButton) {
-            fs.appendFileSync('result.txt', `AKTUÁLIS feliratú gomb van ${date}\n`);
+            fs.appendFileSync('text_verification.txt', `AKTUÁLIS feliratú gomb van ${date}\n`);
           } else {
-            fs.appendFileSync('result.txt', `AKTUÁLIS feliratú gomb nincs ${date}\n`);
+            fs.appendFileSync('text_verification.txt', `AKTUÁLIS feliratú gomb nincs ${date}\n`);
           }
 
 
           const korcsolyaButton = await page.$('text=KORCSOLYA');
 
         if (korcsolyaButton) {
-            fs.appendFileSync('result.txt', `KORCSOLYA feliratú gomb van ${date}\n`);
+            fs.appendFileSync('text_verification.txt', `KORCSOLYA feliratú gomb van ${date}\n`);
           } else {
-            fs.appendFileSync('result.txt', `KORCSOLYA feliratú gomb nincs ${date}\n`);
+            fs.appendFileSync('text_verification.txt', `KORCSOLYA feliratú gomb nincs ${date}\n`);
           }
 
 
           const JamesWebbButton = await page.$('text=James Webb');
 
         if (JamesWebbButton) {
-            fs.appendFileSync('result.txt', `James Webb feliratú gomb van ${date}\n`);
+            fs.appendFileSync('text_verification.txt', `James Webb feliratú gomb van ${date}`);
           } else {
-            fs.appendFileSync('result.txt', `James Webb feliratú gomb nincs ${date}\n`);
+            fs.appendFileSync('text_verification.txt', `James Webb feliratú gomb nincs ${date}`);
           }
        
    
